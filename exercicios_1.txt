@@ -1,0 +1,43 @@
+1. Escreva os mnemônicos de todas instruções de salto condicional do 8086 (exceto JCXZ), agrupando aquelas que possuem o mesmo código de máquina. Para cada grupo, especificar que condições a instrução testa nos flags para determinar se deve ou não ocorrer um salto.
+
+2. Escreva um trecho de código em linguagem de montagem para determinar se a instrução "DIV RCX" irá causar um erro se for executada.
+
+3. Escreva uma função em linguagem de montagem que possa ser chamada de um programa escrito em linguagem C e que possua comportamento idêntico às seguintes funções já existentes na biblioteca padrão:
+
+a). abs - Feito
+b). toupper - Feito
+c). strtoul
+d). memset
+e). strlen
+f). strcpy
+g). strcat
+h). strcmp
+i). strchr
+j). strstr
+
+4). Para cada problema abaixo, escreva a declaração de uma função em C e a implemente em linguagem de montagem do 80386:
+
+a). Verificar se um ano é bissexto (pesquisar definição EXATA na Internet).
+b). Verificar se um número é primo.
+c). Obter o n-ésimo termo da sequência de Fibonacci, sendo f(0) = 0, f(1) = 1.
+d). Calcular o máximo divisor comum entre dois inteiros sem sinal pelo algoritmo do MDC binário.
+e). Calcular o máximo divisor comum entre dois inteiros sem sinal por meio de fatoração.
+f). Ordenar um vetor de inteiros pelo algoritmo da bolha.
+g). Ordenar um vetor de inteiros pelo algoritmo da inserção.
+h). Ordenar um vetor de inteiros pelo algoritmo da seleção.
+i). Ordenar um vetor de inteiros pelo algoritmo de mesclagem.
+j). Ordenar um vetor de inteiros pelo quick sort.
+
+5. Monte as instruções abaixo da forma mais eficiente possível, pesquisando seus opcodes na Internet se necessário. Use o DEBUG para verificar a correção de sua resposta.
+
+a). PUSHF
+b). INT     16h
+c). INT     3
+d). DEC     BYTE PTR [RSI-8]
+e). INC     RDX
+f). XCHG    DIL,[RDI+RBP]
+g). ADD     [RBX+RSI],AL
+h). SUB     RCX,RDX
+i). XOR     WORD PTR [RBP],175
+j). JMP     1C9h    (montada no endereço 212h)
+
