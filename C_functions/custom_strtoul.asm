@@ -5,9 +5,9 @@
 				format elf64
 
 				section 	'.text'
-				public 		custom_toupper
+				public 		custom_strtoul
 
-custom_toupper:		
+custom_strtoul:		
 				mov			al, dil
                 cmp         al, 97
                 jb          nao_minusculo  
@@ -16,6 +16,3 @@ custom_toupper:
 				sub		    al, 32
 nao_minusculo:
 				ret
-				   
-
-

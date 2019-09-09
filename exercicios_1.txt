@@ -6,12 +6,12 @@
 
 a). abs - Feito
 b). toupper - Feito
-c). strtoul
-d). memset
-e). strlen
-f). strcpy
-g). strcat
-h). strcmp
+c). strtoul 
+d). memset - Feito
+e). strlen - Feito
+f). strcpy - Feito
+g). strcat - Feito (Nao confere se tem tamanho o suficiente para caber ambas)
+h). strcmp - Feito
 i). strchr
 j). strstr
 
