@@ -8,6 +8,8 @@ extern size_t custom_strlen(const char *str);
 extern char *custom_strcpy(char *dest, const char *src);
 extern char *custom_strcat(char *dest, const char *src);
 extern int custom_strcmp(const char *str1, const char *str2);
+extern char *custom_strchr(const char *str, int c);
+extern char *custom_strstr(const char *haystack, const char *needle);
 
 
 int main(){
@@ -39,6 +41,10 @@ int main(){
     custom_strcat(str, str2);
     printf("%s\n", str);
     printf("%s\n", str2);
+    
+    
+    custom_strchr(str, 'e') ? printf("%s\n", custom_strchr(str, 'o')) : printf("Null!\n");
+    printf("%s\n", custom_strchr(str2, 'a'));
 
     return 0;
 }

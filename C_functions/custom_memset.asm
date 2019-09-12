@@ -12,6 +12,7 @@ custom_memset:
                 mov         rax, rdi
                 xor         rcx, rcx
                 mov         ecx, edx ; int n, quantidade de bytes para ser preenchido com mesmo valor
+                jecxz       retornar
 put_x:
                 mov         [rdi], sil
                 inc         rdi
