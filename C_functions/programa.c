@@ -46,5 +46,9 @@ int main(){
     custom_strchr(str, 'e') ? printf("%s\n", custom_strchr(str, 'o')) : printf("Null!\n");
     printf("%s\n", custom_strchr(str2, 'a'));
 
+    custom_strstr(str, "Joao") ? printf("É substring!\n") : printf("Null!\n");
+    custom_strstr("", "") ? printf("É substring!\n") : printf("Null!\n");
+    
+
     return 0;
 }

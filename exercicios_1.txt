@@ -13,7 +13,7 @@ f). strcpy - Feito
 g). strcat - Feito (Nao confere se tem tamanho o suficiente para caber ambas)
 h). strcmp - Feito
 i). strchr - Feito
-j). strstr - 
+j). strstr - Feito
 
 4). Para cada problema abaixo, escreva a declaração de uma função em C e a implemente em linguagem de montagem do 80386:
 
