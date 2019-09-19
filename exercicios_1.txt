@@ -19,7 +19,7 @@ j). strstr - Feito
 
 a). Verificar se um ano é bissexto (pesquisar definição EXATA na Internet).
 b). Verificar se um número é primo.
-c). Obter o n-ésimo termo da sequência de Fibonacci, sendo f(0) = 0, f(1) = 1.
+c). Obter o n-ésimo termo da sequência de Fibonacci, sendo f(0) = 0, f(1) = 1. - Feito
 d). Calcular o máximo divisor comum entre dois inteiros sem sinal pelo algoritmo do MDC binário.
 e). Calcular o máximo divisor comum entre dois inteiros sem sinal por meio de fatoração.
 f). Ordenar um vetor de inteiros pelo algoritmo da bolha.
