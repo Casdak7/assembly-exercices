@@ -11,9 +11,7 @@ fibonacci:
 		xor		eax, eax
 		cmp		edi, 0
 		jl		retornar
-		je		zero
 		mov		r8d, 1
-		mov		r9d, 0
 		xor		ecx, ecx
 		; cmp		edi, 1
 		; ja		acima
@@ -22,11 +20,9 @@ fibonacci:
 acima:	
 		cmp		ecx, edi
 		je		retornar
-		xadd		r9d, r8d
-		mov		eax, r9d
+		xadd	eax, r8d
+		; mov		eax, r9d
 		inc		ecx
 		jmp		acima
-zero:
-		xor		eax, eax
 retornar: 
 		ret

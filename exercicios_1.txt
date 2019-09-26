@@ -17,12 +17,12 @@ j). strstr - Feito
 
 4). Para cada problema abaixo, escreva a declaração de uma função em C e a implemente em linguagem de montagem do 80386:
 
-a). Verificar se um ano é bissexto (pesquisar definição EXATA na Internet).
-b). Verificar se um número é primo.
+a). Verificar se um ano é bissexto (pesquisar definição EXATA na Internet). - Feito
+b). Verificar se um número é primo. - Feito
 c). Obter o n-ésimo termo da sequência de Fibonacci, sendo f(0) = 0, f(1) = 1. - Feito
 d). Calcular o máximo divisor comum entre dois inteiros sem sinal pelo algoritmo do MDC binário.
 e). Calcular o máximo divisor comum entre dois inteiros sem sinal por meio de fatoração.
-f). Ordenar um vetor de inteiros pelo algoritmo da bolha.
+f). Ordenar um vetor de inteiros pelo algoritmo da bolha. - Feito
 g). Ordenar um vetor de inteiros pelo algoritmo da inserção.
 h). Ordenar um vetor de inteiros pelo algoritmo da seleção.
 i). Ordenar um vetor de inteiros pelo algoritmo de mesclagem.
@@ -34,7 +34,7 @@ a). PUSHF
 b). INT     16h
 c). INT     3
 d). DEC     BYTE PTR [RSI-8]
-e). INC     RDX
+e). INC     RDX - Feito
 f). XCHG    DIL,[RDI+RBP]
 g). ADD     [RBX+RSI],AL
 h). SUB     RCX,RDX

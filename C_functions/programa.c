@@ -1,14 +1,15 @@
 #include <stdio.h>
+#include <string.h>
 
-extern int custom_abs(int num);
-extern char custom_toupper(char ch);
-extern unsigned long int custom_strtoul(const char *str, char **endptr, int base);
-extern void custom_memset(void *ptr, int x, size_t n);
-extern size_t custom_strlen(const char *str);
-extern char *custom_strcpy(char *dest, const char *src);
-extern char *custom_strcat(char *dest, const char *src);
-extern int custom_strcmp(const char *str1, const char *str2);
-extern char *custom_strchr(const char *str, int c);
+// extern int custom_abs(int num);
+// extern char custom_toupper(char ch);
+// extern unsigned long int custom_strtoul(const char *str, char **endptr, int base);
+// extern void custom_memset(void *ptr, int x, size_t n);
+// extern size_t custom_strlen(const char *str);
+// extern char *custom_strcpy(char *dest, const char *src);
+// extern char *custom_strcat(char *dest, const char *src);
+// extern int custom_strcmp(const char *str1, const char *str2);
+// extern char *custom_strchr(const char *str, int c);
 extern char *custom_strstr(const char *haystack, const char *needle);
 
 
@@ -38,16 +39,17 @@ int main(){
     // printf("%s\n", str);
     // printf("%s\n", str2);
 
-    custom_strcat(str, str2);
-    printf("%s\n", str);
-    printf("%s\n", str2);
+    // custom_strcat(str, str2);
+    // printf("%s\n", str);
+    // printf("%s\n", str2);
     
     
-    custom_strchr(str, 'e') ? printf("%s\n", custom_strchr(str, 'o')) : printf("Null!\n");
-    printf("%s\n", custom_strchr(str2, 'a'));
+    // custom_strchr(str, 'e') ? printf("%s\n", custom_strchr(str, 'o')) : printf("Null!\n");
+    // printf("%s\n", custom_strchr(str2, 'a'));
 
-    custom_strstr(str, "Joao") ? printf("É substring!\n") : printf("Null!\n");
-    custom_strstr("", "") ? printf("É substring!\n") : printf("Null!\n");
+    custom_strstr(str, "Joaoaaaaaaaa") ? printf("É substring!\n") : printf("Null!\n");
+    custom_strstr("", "aba") ? printf("É substring!\n") : printf("Null!\n");
+    strstr(str, "abaasdasdasdas") ? printf("É substring!\n") : printf("Null!\n");
     
 
     return 0;
